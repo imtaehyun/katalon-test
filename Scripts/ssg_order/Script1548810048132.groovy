@@ -45,7 +45,3 @@ GlobalVariable.ord_no = ord_no
 
 System.out.println(ord_no)
 
-WebUI.acceptAlert()
-
-WS.sendRequest(findTestObject('New Request'))
-
