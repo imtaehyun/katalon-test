@@ -29,41 +29,34 @@ if (isDuhagee == false) {
     WebUI.click(findTestObject('order2/new_order_button'))
 }
 
-try {
-    '쓱배송일자 선택'
-    WebUI.click(findTestObject('order/input_select_day_time_css'))
+'쓱배송일자 선택'
+WebUI.click(findTestObject('order/input_select_day_time_css'))
 
-    '품절상품 대체여부 > 전체수락'
-    WebUI.click(findTestObject('Object Repository/order/input_ _shortgProcMthdCdAll_1'))
+'품절상품 대체여부 > 전체수락'
+WebUI.click(findTestObject('Object Repository/order/input_ _shortgProcMthdCdAll_1'))
 
-    WebUI.delay(5)
+WebUI.delay(3)
 
-    '계속하기 버튼 클릭'
-    WebUI.click(findTestObject('Object Repository/order/button__1'))
+'계속하기 버튼 클릭'
+WebUI.click(findTestObject('Object Repository/order/button__1'))
 
-    's포켓 전체사용 버튼 클릭'
-    WebUI.click(findTestObject('Object Repository/order/button__2'))
+'s포켓 전체사용 버튼 클릭'
+WebUI.click(findTestObject('Object Repository/order/button__2'))
 
-    '"주문 상품정보 및 결제대행 서비스 이용약관에 모두 동의하십니까?" 클릭'
-    WebUI.click(findTestObject('Object Repository/order/label_'))
+'"주문 상품정보 및 결제대행 서비스 이용약관에 모두 동의하십니까?" 클릭'
+WebUI.click(findTestObject('Object Repository/order/label_'))
 
-    '결제하기 버튼 클릭'
-    WebUI.click(findTestObject('Object Repository/order/button_0  0'))
+'결제하기 버튼 클릭'
+WebUI.click(findTestObject('Object Repository/order/button_0  0'))
 
-    ord_no = WebUI.getText(findTestObject('order/ord_no_txt'))
+ord_no = WebUI.getText(findTestObject('order/ord_no_txt'))
 
-    ord_no = ord_no.replace('주문번호는 ', '')
+ord_no = ord_no.replace('주문번호는 ', '')
 
-    ord_no = ord_no.replace('번', '')
+ord_no = ord_no.replace('번', '')
 
-    '주문번호 Global 변수에 저장\t'
-    GlobalVariable.ord_no = ord_no
+'주문번호 Global 변수에 저장\t'
+GlobalVariable.ord_no = ord_no
 
-    System.out.println(ord_no)
-}
-catch (Exception e) {
-    WebUI.takeScreenshot()
-} 
-finally { 
-}
+System.out.println(ord_no)
 
