@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+picking_dirc,Chrome 71.0.3578.98,,2019-01-29 15:26:58,2019-01-29 15:27:21,22.544s,PASSED
+,,,,,,
+Test Cases/picking_dirc_admin,Chrome 71.0.3578.98,,2019-01-29 15:26:58,2019-01-29 15:27:20,21.124s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-29 15:26:59,2019-01-29 15:27:13,13.913s,PASSED
+"navigateToUrl(""https://qa-bo.ssgadm.com/authentication/login.ssg"")",Chrome 71.0.3578.98,,2019-01-29 15:27:13,2019-01-29 15:27:14,0.939s,PASSED
+"setText(findTestObject(""Object Repository/picking_dirc_admin_2/input__userId""), ""140179"")",Chrome 71.0.3578.98,,2019-01-29 15:27:14,2019-01-29 15:27:14,0.271s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/picking_dirc_admin_2/input__userPwd""), ""w11JizTPrrG9r5NfjDZfNA=="")",Chrome 71.0.3578.98,,2019-01-29 15:27:14,2019-01-29 15:27:14,0.247s,PASSED
+"click(findTestObject(""Object Repository/picking_dirc_admin_2/a_LOGIN""))",Chrome 71.0.3578.98,,2019-01-29 15:27:14,2019-01-29 15:27:14,0.097s,PASSED
+"click(findTestObject(""Object Repository/picking_dirc_admin_2/a_""))",Chrome 71.0.3578.98,,2019-01-29 15:27:14,2019-01-29 15:27:16,1.532s,PASSED
+"click(findTestObject(""Object Repository/picking_dirc_admin_2/a_E-Infra""))",Chrome 71.0.3578.98,,2019-01-29 15:27:16,2019-01-29 15:27:16,0.609s,PASSED
+"click(findTestObject(""Object Repository/picking_dirc_admin_2/b_E""))",Chrome 71.0.3578.98,,2019-01-29 15:27:16,2019-01-29 15:27:18,1.284s,PASSED
+"setText(findTestObject(""Object Repository/picking_dirc_admin_2/input__salestrNm""), ""성수점"")",Chrome 71.0.3578.98,,2019-01-29 15:27:18,2019-01-29 15:27:18,0.311s,PASSED
+"waitForElementVisible(findTestObject(""picking_dirc_admin_2/select_(2034)""), 5)",Chrome 71.0.3578.98,,2019-01-29 15:27:18,2019-01-29 15:27:18,0.103s,PASSED
+"selectOptionByValue(findTestObject(""picking_dirc_admin_2/select_(2034)""), ""2034|성수점"", false)",Chrome 71.0.3578.98,,2019-01-29 15:27:18,2019-01-29 15:27:18,0.178s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/picking_dirc_admin_2/select_                    3""), ""03"", true)",Chrome 71.0.3578.98,,2019-01-29 15:27:18,2019-01-29 15:27:19,0.254s,PASSED
+"click(findTestObject(""Object Repository/picking_dirc_admin_2/button_""))",Chrome 71.0.3578.98,,2019-01-29 15:27:19,2019-01-29 15:27:19,0.238s,PASSED
+"click(findTestObject(""Object Repository/picking_dirc_admin_2/img""))",Chrome 71.0.3578.98,,2019-01-29 15:27:19,2019-01-29 15:27:20,0.703s,PASSED
+"click(findTestObject(""Object Repository/picking_dirc_admin_2/button__1""))",Chrome 71.0.3578.98,,2019-01-29 15:27:20,2019-01-29 15:27:20,0.005s,NOT_RUN
+waitForAlert(5),Chrome 71.0.3578.98,,2019-01-29 15:27:20,2019-01-29 15:27:20,0.004s,NOT_RUN
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-29 15:27:20,2019-01-29 15:27:20,0.003s,NOT_RUN
+waitForAlert(5),Chrome 71.0.3578.98,,2019-01-29 15:27:20,2019-01-29 15:27:20,0.003s,NOT_RUN
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-29 15:27:20,2019-01-29 15:27:20,0.004s,NOT_RUN

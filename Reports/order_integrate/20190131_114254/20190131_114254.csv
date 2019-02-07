@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+order_integrate,Chrome 71.0.3578.98,,2019-01-31 11:42:56,2019-01-31 11:44:01,1m - 4.556s,ERROR
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 11:42:56,2019-01-31 11:43:07,11.278s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 11:42:57,2019-01-31 11:43:03,6.811s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 11:43:03,2019-01-31 11:43:05,1.836s,PASSED
+"txt_login_btn = getText(findTestObject(""order/a_""))",Chrome 71.0.3578.98,,2019-01-31 11:43:05,2019-01-31 11:43:05,0.180s,PASSED
+"if (txt_login_btn == ""로그인"")",Chrome 71.0.3578.98,,2019-01-31 11:43:05,2019-01-31 11:43:07,2.102s,PASSED
+,,,,,,
+Test Cases/ssg_order,Chrome 71.0.3578.98,,2019-01-31 11:43:07,2019-01-31 11:43:44,36.965s,PASSED
+"navigateToUrl(""http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"")",Chrome 71.0.3578.98,,2019-01-31 11:43:08,2019-01-31 11:43:38,29.930s,PASSED
+"click(findTestObject(""Object Repository/order/a__1""))",Chrome 71.0.3578.98,바로구매 버튼 클릭,2019-01-31 11:43:38,2019-01-31 11:43:40,2.430s,PASSED
+"click(findTestObject(""Object Repository/order/td_800g ()""))",Chrome 71.0.3578.98,,2019-01-31 11:43:40,2019-01-31 11:43:40,0.073s,PASSED
+"click(findTestObject(""order/input_select_day_time_css""))",Chrome 71.0.3578.98,쓱배송일자 선택,2019-01-31 11:43:40,2019-01-31 11:43:40,0.070s,PASSED
+"click(findTestObject(""Object Repository/order/input_ _shortgProcMthdCdAll_1""))",Chrome 71.0.3578.98,,2019-01-31 11:43:40,2019-01-31 11:43:40,0.077s,PASSED
+"click(findTestObject(""Object Repository/order/button__1""))",Chrome 71.0.3578.98,,2019-01-31 11:43:40,2019-01-31 11:43:42,1.612s,PASSED
+"click(findTestObject(""Object Repository/order/button__2""))",Chrome 71.0.3578.98,,2019-01-31 11:43:42,2019-01-31 11:43:42,0.166s,PASSED
+"click(findTestObject(""Object Repository/order/label_""))",Chrome 71.0.3578.98,,2019-01-31 11:43:42,2019-01-31 11:43:42,0.092s,PASSED
+"click(findTestObject(""Object Repository/order/button_0  0""))",Chrome 71.0.3578.98,,2019-01-31 11:43:42,2019-01-31 11:43:44,2.205s,PASSED
+"ord_no = getText(findTestObject(""order/ord_no_txt""))",Chrome 71.0.3578.98,,2019-01-31 11:43:44,2019-01-31 11:43:44,0.052s,PASSED
+"ord_no = ord_no.replace(""주문번호는 "", """")",Chrome 71.0.3578.98,,2019-01-31 11:43:44,2019-01-31 11:43:44,0.001s,PASSED
+"ord_no = ord_no.replace(""번"", """")",Chrome 71.0.3578.98,,2019-01-31 11:43:44,2019-01-31 11:43:44,0.001s,PASSED
+out.println(ord_no),Chrome 71.0.3578.98,,2019-01-31 11:43:44,2019-01-31 11:43:44,0.011s,PASSED
+,,,,,,
+Test Cases/search_ord_from_bo,Chrome 71.0.3578.98,,2019-01-31 11:43:44,2019-01-31 11:43:59,14.951s,ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 11:43:45,2019-01-31 11:43:52,7.433s,PASSED
+"navigateToUrl(""https://qa-bo.ssgadm.com/authentication/login.ssg"")",Chrome 71.0.3578.98,,2019-01-31 11:43:52,2019-01-31 11:43:56,3.488s,PASSED
+"setText(findTestObject(""picking_dirc_admin/input__userId""), ""140179"")",Chrome 71.0.3578.98,,2019-01-31 11:43:56,2019-01-31 11:43:56,0.162s,PASSED
+"setEncryptedText(findTestObject(""search_ord_from_bo/input__userPwd (1)""), ""w11JizTPrrG9r5NfjDZfNA=="")",Chrome 71.0.3578.98,,2019-01-31 11:43:56,2019-01-31 11:43:56,0.147s,PASSED
+"click(findTestObject(""search_ord_from_bo/a_LOGIN (1)""))",Chrome 71.0.3578.98,,2019-01-31 11:43:56,2019-01-31 11:43:56,0.085s,PASSED
+"click(findTestObject(""search_ord_from_bo/a_ (1)""))",Chrome 71.0.3578.98,,2019-01-31 11:43:56,2019-01-31 11:43:57,1.040s,PASSED
+"click(findTestObject(""search_ord_from_bo/a_E-Infra (1)""))",Chrome 71.0.3578.98,,2019-01-31 11:43:57,2019-01-31 11:43:58,0.605s,PASSED
+"click(findTestObject(""search_ord_from_bo/b_E (1)""))",Chrome 71.0.3578.98,,2019-01-31 11:43:58,2019-01-31 11:43:59,1.082s,PASSED
+"setText(findTestObject(""search_ord_from_bo/input__salestrNm""), ""성수점"")",Chrome 71.0.3578.98,,2019-01-31 11:43:59,2019-01-31 11:43:59,0.345s,PASSED
+"selectOptionByValue(findTestObject(""search_ord_from_bo/select_(2034)""), ""2034|성수점"", false)",Chrome 71.0.3578.98,,2019-01-31 11:43:59,2019-01-31 11:43:59,0.169s,PASSED
+"selectOptionByValue(findTestObject(""search_ord_from_bo/select_""), ""20"", true)",Chrome 71.0.3578.98,,2019-01-31 11:43:59,2019-01-31 11:43:59,0.183s,PASSED
+"setText(findTestObject(""Page_E  /textarea_WET _searchCommValueT""), ord_no)",Chrome 71.0.3578.98,,2019-01-31 11:43:59,2019-01-31 11:43:59,0.009s,ERROR

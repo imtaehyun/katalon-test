@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+cancel_order,Chrome 71.0.3578.98,,2019-01-30 10:45:56,2019-01-30 10:46:45,48.987s,FAILED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-30 10:45:56,2019-01-30 10:46:15,19.648s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-30 10:45:56,2019-01-30 10:46:10,13.425s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-30 10:46:10,2019-01-30 10:46:12,2.586s,PASSED
+"click(findTestObject(""Object Repository/order/a_""))",Chrome 71.0.3578.98,GNB 로그인 버튼 클릭,2019-01-30 10:46:12,2019-01-30 10:46:13,0.575s,PASSED
+"switchToWindowTitle(""로그인, 신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 10:46:13,2019-01-30 10:46:14,1.233s,PASSED
+"setText(findTestObject(""Object Repository/order/input__mbrLoginId""), ""nezz"")",Chrome 71.0.3578.98,,2019-01-30 10:46:14,2019-01-30 10:46:14,0.315s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/order/input__password""), ""RKSwBYi2f48="")",Chrome 71.0.3578.98,,2019-01-30 10:46:14,2019-01-30 10:46:15,0.747s,PASSED
+"click(findTestObject(""Object Repository/order/button_""))",Chrome 71.0.3578.98,,2019-01-30 10:46:15,2019-01-30 10:46:15,0.203s,PASSED
+"switchToWindowTitle(""신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 10:46:15,2019-01-30 10:46:15,0.119s,PASSED
+,,,,,,
+Test Cases/ssg_cancel,Chrome 71.0.3578.98,,2019-01-30 10:46:16,2019-01-30 10:46:44,28.383s,FAILED
+"navigateToUrl(""https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg"")",Chrome 71.0.3578.98,,2019-01-30 10:46:16,2019-01-30 10:46:18,1.981s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (1)""))",Chrome 71.0.3578.98,,2019-01-30 10:46:18,2019-01-30 10:46:44,26.100s,FAILED

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cancel_order" time="40" tests="2" failures="0" errors="0">
+   <testsuite name="cancel_order" tests="2" failures="0" errors="0" time="40" timestamp="2019-01-30 09:59:42" hostname="140179 - AD0-W-D10596.ssg.global" id="Test Suites/cancel_order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\development\\katalon\\ssg\\Reports\\cancel_order\\20190130_095939"/>
+         <property name="logFiles" value="D:\\development\\katalon\\ssg\\Reports\\cancel_order\\20190130_095939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="140179 - AD0-W-D10596.ssg.global"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.149.181.162"/>
+         <property name="sessionId" value="8d14fc1bfa7486d2e120e69de22f545d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ssg_login" classname="Test Cases/ssg_login" status="PASSED">
+         <system-out><![CDATA[2019-01-30 09:59:42 - [TEST_CASE][PASSED] - Test Cases/ssg_login: Test Cases/ssg_login
+
+2019-01-30 09:59:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-30 09:59:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-30 09:59:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-30 09:59:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-30 09:59:54 - [TEST_STEP][PASSED] - navigateToUrl("http://qa-www.ssg.com/"): Navigate to 'http://qa-www.ssg.com/' successfully
+
+2019-01-30 09:59:58 - [MESSAGE][PASSED] - Navigate to 'http://qa-www.ssg.com/' successfully
+
+2019-01-30 09:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/a_")): Object: 'Object Repository/order/a_' is clicked on
+
+2019-01-30 09:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/order/a_' is clicked on
+
+2019-01-30 09:59:58 - [TEST_STEP][PASSED] - switchToWindowTitle("로그인, 신세계적 쇼핑포털 SSG.COM"): Switched to window with title: '로그인, 신세계적 쇼핑포털 SSG.COM'
+
+2019-01-30 10:00:00 - [MESSAGE][PASSED] - Switched to window with title: '로그인, 신세계적 쇼핑포털 SSG.COM'
+
+2019-01-30 10:00:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/order/input__mbrLoginId"), "nezz"): Text 'nezz' is set on object 'Object Repository/order/input__mbrLoginId'
+
+2019-01-30 10:00:00 - [MESSAGE][PASSED] - Text 'nezz' is set on object 'Object Repository/order/input__mbrLoginId'
+
+2019-01-30 10:00:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/order/input__password"), "RKSwBYi2f48="): Text ****** has been set on object 'Object Repository/order/input__password'
+
+2019-01-30 10:00:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/order/input__password'
+
+2019-01-30 10:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/button_")): Object: 'Object Repository/order/button_' is clicked on
+
+2019-01-30 10:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/order/button_' is clicked on
+
+2019-01-30 10:00:01 - [TEST_STEP][PASSED] - switchToWindowTitle("신세계적 쇼핑포털 SSG.COM"): Switched to window with title: '신세계적 쇼핑포털 SSG.COM'
+
+2019-01-30 10:00:01 - [MESSAGE][PASSED] - Switched to window with title: '신세계적 쇼핑포털 SSG.COM']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/cancel" classname="Test Cases/cancel" status="PASSED">
+         <system-out><![CDATA[2019-01-30 10:00:01 - [TEST_CASE][PASSED] - Test Cases/cancel: Test Cases/cancel
+
+2019-01-30 10:00:02 - [TEST_STEP][PASSED] - navigateToUrl("https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg"): Navigate to 'https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg' successfully
+
+2019-01-30 10:00:12 - [MESSAGE][PASSED] - Navigate to 'https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg' successfully
+
+2019-01-30 10:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cancel/button_ (1)")): Object: 'Object Repository/cancel/button_ (1)' is clicked on
+
+2019-01-30 10:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel/button_ (1)' is clicked on
+
+2019-01-30 10:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cancel/label_")): Object: 'Object Repository/cancel/label_' is clicked on
+
+2019-01-30 10:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel/label_' is clicked on
+
+2019-01-30 10:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cancel/label_ (1)")): Object: 'Object Repository/cancel/label_ (1)' is clicked on
+
+2019-01-30 10:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel/label_ (1)' is clicked on
+
+2019-01-30 10:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cancel/button_ (2)")): Object: 'Object Repository/cancel/button_ (2)' is clicked on
+
+2019-01-30 10:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel/button_ (2)' is clicked on
+
+2019-01-30 10:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cancel/label_     .")): Object: 'Object Repository/cancel/label_     .' is clicked on
+
+2019-01-30 10:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel/label_     .' is clicked on
+
+2019-01-30 10:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cancel/button__1")): Object: 'Object Repository/cancel/button__1' is clicked on
+
+2019-01-30 10:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel/button__1' is clicked on
+
+2019-01-30 10:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cancel/button__2")): Object: 'Object Repository/cancel/button__2' is clicked on
+
+2019-01-30 10:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel/button__2' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-30 09:59:42 - [TEST_SUITE][PASSED] - cancel_order: Test Cases/cancel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

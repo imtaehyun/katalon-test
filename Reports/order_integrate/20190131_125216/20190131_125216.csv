@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+order_integrate,Chrome 71.0.3578.98,,2019-01-31 12:52:24,2019-01-31 12:53:15,51.403s,FAILED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 12:52:24,2019-01-31 12:52:50,25.921s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 12:52:24,2019-01-31 12:52:32,7.484s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 12:52:32,2019-01-31 12:52:38,6.130s,PASSED
+"txt_login_btn = getText(findTestObject(""order/a_""))",Chrome 71.0.3578.98,,2019-01-31 12:52:38,2019-01-31 12:52:50,11.977s,FAILED
+,,,,,,
+Test Cases/ssg_order,Chrome 71.0.3578.98,,2019-01-31 12:52:50,2019-01-31 12:53:02,12.294s,FAILED
+"navigateToUrl(""http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"")",Chrome 71.0.3578.98,,2019-01-31 12:52:50,2019-01-31 12:53:02,12.036s,FAILED
+,,,,,,
+Test Cases/search_ord_from_bo,Chrome 71.0.3578.98,,2019-01-31 12:53:02,2019-01-31 12:53:15,12.302s,FAILED
+"navigateToUrl(""https://qa-bo.ssgadm.com/authentication/login.ssg"")",Chrome 71.0.3578.98,,2019-01-31 12:53:03,2019-01-31 12:53:15,12.009s,FAILED

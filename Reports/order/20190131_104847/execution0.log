@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-31T10:48:49</date>
+  <millis>1548899329097</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/order</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">order</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/order</property>
+</record>
+<record>
+  <date>2019-01-31T10:48:49</date>
+  <millis>1548899329110</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = 140179 - AD0-W-D10596.ssg.global</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">140179 - AD0-W-D10596.ssg.global</property>
+</record>
+<record>
+  <date>2019-01-31T10:48:49</date>
+  <millis>1548899329111</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-01-31T10:48:49</date>
+  <millis>1548899329112</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.149.181.162</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.149.181.162</property>
+</record>
+<record>
+  <date>2019-01-31T10:48:49</date>
+  <millis>1548899329113</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-31T10:48:49</date>
+  <millis>1548899329321</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ssg_login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/ssg_login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ssg_login</property>
+  <property name="source">D:\\development\\katalon\\ssg\\Test Cases\\ssg_login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-31T10:48:49</date>
+  <millis>1548899329665</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>

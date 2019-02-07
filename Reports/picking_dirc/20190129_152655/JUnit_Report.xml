@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="picking_dirc" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="picking_dirc" tests="1" failures="0" errors="0" time="22" timestamp="2019-01-29 15:26:58" hostname="140179 - AD0-W-D10596.ssg.global" id="Test Suites/picking_dirc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\development\\katalon\\ssg\\Reports\\picking_dirc\\20190129_152655"/>
+         <property name="logFiles" value="D:\\development\\katalon\\ssg\\Reports\\picking_dirc\\20190129_152655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="140179 - AD0-W-D10596.ssg.global"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.149.181.162"/>
+         <property name="sessionId" value="63747b02446122c04f9ad8c788fae720"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/picking_dirc_admin" classname="Test Cases/picking_dirc_admin" status="PASSED">
+         <system-out><![CDATA[2019-01-29 15:26:58 - [TEST_CASE][PASSED] - Test Cases/picking_dirc_admin: Test Cases/picking_dirc_admin
+
+2019-01-29 15:26:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-29 15:27:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-29 15:27:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-29 15:27:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-29 15:27:13 - [TEST_STEP][PASSED] - navigateToUrl("https://qa-bo.ssgadm.com/authentication/login.ssg"): Navigate to 'https://qa-bo.ssgadm.com/authentication/login.ssg' successfully
+
+2019-01-29 15:27:14 - [MESSAGE][PASSED] - Navigate to 'https://qa-bo.ssgadm.com/authentication/login.ssg' successfully
+
+2019-01-29 15:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/picking_dirc_admin_2/input__userId"), "140179"): Text '140179' is set on object 'Object Repository/picking_dirc_admin_2/input__userId'
+
+2019-01-29 15:27:14 - [MESSAGE][PASSED] - Text '140179' is set on object 'Object Repository/picking_dirc_admin_2/input__userId'
+
+2019-01-29 15:27:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/picking_dirc_admin_2/input__userPwd"), "w11JizTPrrG9r5NfjDZfNA=="): Text ****** has been set on object 'Object Repository/picking_dirc_admin_2/input__userPwd'
+
+2019-01-29 15:27:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/picking_dirc_admin_2/input__userPwd'
+
+2019-01-29 15:27:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/picking_dirc_admin_2/a_LOGIN")): Object: 'Object Repository/picking_dirc_admin_2/a_LOGIN' is clicked on
+
+2019-01-29 15:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/picking_dirc_admin_2/a_LOGIN' is clicked on
+
+2019-01-29 15:27:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/picking_dirc_admin_2/a_")): Object: 'Object Repository/picking_dirc_admin_2/a_' is clicked on
+
+2019-01-29 15:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/picking_dirc_admin_2/a_' is clicked on
+
+2019-01-29 15:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/picking_dirc_admin_2/a_E-Infra")): Object: 'Object Repository/picking_dirc_admin_2/a_E-Infra' is clicked on
+
+2019-01-29 15:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/picking_dirc_admin_2/a_E-Infra' is clicked on
+
+2019-01-29 15:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/picking_dirc_admin_2/b_E")): Object: 'Object Repository/picking_dirc_admin_2/b_E' is clicked on
+
+2019-01-29 15:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/picking_dirc_admin_2/b_E' is clicked on
+
+2019-01-29 15:27:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/picking_dirc_admin_2/input__salestrNm"), "성수점"): Text '성수점' is set on object 'Object Repository/picking_dirc_admin_2/input__salestrNm'
+
+2019-01-29 15:27:18 - [MESSAGE][PASSED] - Text '성수점' is set on object 'Object Repository/picking_dirc_admin_2/input__salestrNm'
+
+2019-01-29 15:27:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("picking_dirc_admin_2/select_(2034)"), 5): Object 'Object Repository/picking_dirc_admin_2/select_(2034)' is visible
+
+2019-01-29 15:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/picking_dirc_admin_2/select_(2034)' is visible
+
+2019-01-29 15:27:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("picking_dirc_admin_2/select_(2034)"), "2034|성수점", false): All options with value '2034|성수점' are selected in object 'Object Repository/picking_dirc_admin_2/select_(2034)' 
+
+2019-01-29 15:27:18 - [MESSAGE][PASSED] - All options with value '2034|성수점' are selected in object 'Object Repository/picking_dirc_admin_2/select_(2034)' 
+
+2019-01-29 15:27:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/picking_dirc_admin_2/select_                    3"), "03", true): All options with value '03' are selected in object 'Object Repository/picking_dirc_admin_2/select_                    3'  using regular expression
+
+2019-01-29 15:27:19 - [MESSAGE][PASSED] - All options with value '03' are selected in object 'Object Repository/picking_dirc_admin_2/select_                    3'  using regular expression
+
+2019-01-29 15:27:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/picking_dirc_admin_2/button_")): Object: 'Object Repository/picking_dirc_admin_2/button_' is clicked on
+
+2019-01-29 15:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/picking_dirc_admin_2/button_' is clicked on
+
+2019-01-29 15:27:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/picking_dirc_admin_2/img")): Object: 'Object Repository/picking_dirc_admin_2/img' is clicked on
+
+2019-01-29 15:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/picking_dirc_admin_2/img' is clicked on
+
+2019-01-29 15:27:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/picking_dirc_admin_2/button__1")): NOT_RUN: click(findTestObject("Object Repository/picking_dirc_admin_2/button__1"))
+
+2019-01-29 15:27:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/picking_dirc_admin_2/button__1"))
+
+2019-01-29 15:27:20 - [TEST_STEP][NOT_RUN] - waitForAlert(5): NOT_RUN: waitForAlert(5)
+
+2019-01-29 15:27:20 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForAlert(5)
+
+2019-01-29 15:27:20 - [TEST_STEP][NOT_RUN] - acceptAlert(): NOT_RUN: acceptAlert()
+
+2019-01-29 15:27:20 - [MESSAGE][NOT_RUN] - NOT_RUN: acceptAlert()
+
+2019-01-29 15:27:20 - [TEST_STEP][NOT_RUN] - waitForAlert(5): NOT_RUN: waitForAlert(5)
+
+2019-01-29 15:27:20 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForAlert(5)
+
+2019-01-29 15:27:20 - [TEST_STEP][NOT_RUN] - acceptAlert(): NOT_RUN: acceptAlert()
+
+2019-01-29 15:27:20 - [MESSAGE][NOT_RUN] - NOT_RUN: acceptAlert()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-29 15:26:58 - [TEST_SUITE][PASSED] - picking_dirc: Test Cases/picking_dirc_admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

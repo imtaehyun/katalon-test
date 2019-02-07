@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+cancel_order,Chrome 71.0.3578.98,,2019-01-31 14:13:01,2019-01-31 14:13:32,31.604s,PASSED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 14:13:01,2019-01-31 14:13:16,15.246s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 14:13:01,2019-01-31 14:13:10,9.087s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-31 14:13:10,2019-01-31 14:13:11,1.130s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 14:13:11,2019-01-31 14:13:14,2.361s,PASSED
+"txt_login_btn = getText(findTestObject(""order/a_""))",Chrome 71.0.3578.98,,2019-01-31 14:13:14,2019-01-31 14:13:14,0.149s,PASSED
+"if (txt_login_btn == ""로그인"")",Chrome 71.0.3578.98,,2019-01-31 14:13:14,2019-01-31 14:13:16,2.218s,PASSED
+,,,,,,
+Test Cases/ssg_cancel,Chrome 71.0.3578.98,,2019-01-31 14:13:16,2019-01-31 14:13:31,14.993s,PASSED
+"navigateToUrl(""https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg"")",Chrome 71.0.3578.98,,2019-01-31 14:13:16,2019-01-31 14:13:22,5.520s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (1)""))",Chrome 71.0.3578.98,,2019-01-31 14:13:22,2019-01-31 14:13:23,0.735s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_""))",Chrome 71.0.3578.98,,2019-01-31 14:13:23,2019-01-31 14:13:23,0.210s,PASSED
+"waitForElementVisible(findTestObject(""cancel/label_ (1)""), 5)",Chrome 71.0.3578.98,,2019-01-31 14:13:23,2019-01-31 14:13:23,0.115s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_ (1)""))",Chrome 71.0.3578.98,,2019-01-31 14:13:23,2019-01-31 14:13:23,0.189s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (2)""))",Chrome 71.0.3578.98,,2019-01-31 14:13:23,2019-01-31 14:13:23,0.228s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_     .""))",Chrome 71.0.3578.98,,2019-01-31 14:13:23,2019-01-31 14:13:26,2.757s,PASSED
+"click(findTestObject(""Object Repository/cancel/button__1""))",Chrome 71.0.3578.98,,2019-01-31 14:13:26,2019-01-31 14:13:26,0.139s,PASSED
+"click(findTestObject(""Object Repository/cancel/button__2""))",Chrome 71.0.3578.98,,2019-01-31 14:13:26,2019-01-31 14:13:31,4.787s,PASSED

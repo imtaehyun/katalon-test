@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+cancel_order,Chrome 71.0.3578.98,,2019-01-31 11:05:32,2019-01-31 11:05:58,26.717s,PASSED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 11:05:32,2019-01-31 11:05:44,12.493s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 11:05:32,2019-01-31 11:05:39,7.175s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 11:05:39,2019-01-31 11:05:42,2.719s,PASSED
+"txt_login_btn = getText(findTestObject(""order/a_""))",Chrome 71.0.3578.98,,2019-01-31 11:05:42,2019-01-31 11:05:42,0.168s,PASSED
+"if (txt_login_btn == ""로그인"")",Chrome 71.0.3578.98,,2019-01-31 11:05:42,2019-01-31 11:05:44,2.109s,PASSED
+,,,,,,
+Test Cases/ssg_cancel,Chrome 71.0.3578.98,,2019-01-31 11:05:44,2019-01-31 11:05:57,12.863s,PASSED
+"navigateToUrl(""https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg"")",Chrome 71.0.3578.98,,2019-01-31 11:05:44,2019-01-31 11:05:49,4.501s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (1)""))",Chrome 71.0.3578.98,,2019-01-31 11:05:49,2019-01-31 11:05:49,0.423s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_""))",Chrome 71.0.3578.98,,2019-01-31 11:05:49,2019-01-31 11:05:50,0.181s,PASSED
+"waitForElementVisible(findTestObject(""cancel/label_ (1)""), 5)",Chrome 71.0.3578.98,,2019-01-31 11:05:50,2019-01-31 11:05:50,0.101s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_ (1)""))",Chrome 71.0.3578.98,,2019-01-31 11:05:50,2019-01-31 11:05:50,0.134s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (2)""))",Chrome 71.0.3578.98,,2019-01-31 11:05:50,2019-01-31 11:05:50,0.170s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_     .""))",Chrome 71.0.3578.98,,2019-01-31 11:05:50,2019-01-31 11:05:52,2.200s,PASSED
+"click(findTestObject(""Object Repository/cancel/button__1""))",Chrome 71.0.3578.98,,2019-01-31 11:05:52,2019-01-31 11:05:52,0.190s,PASSED
+"click(findTestObject(""Object Repository/cancel/button__2""))",Chrome 71.0.3578.98,,2019-01-31 11:05:52,2019-01-31 11:05:57,4.713s,PASSED

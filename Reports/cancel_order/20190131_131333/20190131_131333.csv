@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+cancel_order,Chrome 71.0.3578.98,,2019-01-31 13:13:35,2019-01-31 13:13:56,21.110s,FAILED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 13:13:35,2019-01-31 13:13:49,13.923s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 13:13:35,2019-01-31 13:13:44,9.005s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 13:13:44,2019-01-31 13:13:47,2.266s,PASSED
+"txt_login_btn = getText(findTestObject(""order/a_""))",Chrome 71.0.3578.98,,2019-01-31 13:13:47,2019-01-31 13:13:47,0.119s,PASSED
+"if (txt_login_btn == ""로그인"")",Chrome 71.0.3578.98,,2019-01-31 13:13:47,2019-01-31 13:13:49,2.206s,PASSED
+,,,,,,
+Test Cases/ssg_cancel,Chrome 71.0.3578.98,,2019-01-31 13:13:49,2019-01-31 13:13:55,5.882s,FAILED
+"navigateToUrl(""https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg"")",Chrome 71.0.3578.98,,2019-01-31 13:13:49,2019-01-31 13:13:54,4.396s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (1)""))",Chrome 71.0.3578.98,,2019-01-31 13:13:54,2019-01-31 13:13:54,0.484s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_""))",Chrome 71.0.3578.98,,2019-01-31 13:13:54,2019-01-31 13:13:54,0.204s,PASSED
+"waitForElementVisible(findTestObject(""cancel/label_ (1)""), 5)",Chrome 71.0.3578.98,,2019-01-31 13:13:54,2019-01-31 13:13:54,0.098s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_ (1)""))",Chrome 71.0.3578.98,,2019-01-31 13:13:54,2019-01-31 13:13:55,0.446s,FAILED

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+order,Chrome 71.0.3578.98,,2019-01-31 14:06:11,2019-01-31 14:06:59,47.818s,PASSED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 14:06:12,2019-01-31 14:06:29,17.553s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 14:06:12,2019-01-31 14:06:22,9.549s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-31 14:06:22,2019-01-31 14:06:23,1.139s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 14:06:23,2019-01-31 14:06:27,4.040s,PASSED
+"txt_login_btn = getText(findTestObject(""order/a_""))",Chrome 71.0.3578.98,,2019-01-31 14:06:27,2019-01-31 14:06:27,0.168s,PASSED
+"if (txt_login_btn == ""로그인"")",Chrome 71.0.3578.98,,2019-01-31 14:06:27,2019-01-31 14:06:29,2.221s,PASSED
+,,,,,,
+Test Cases/ssg_order,Chrome 71.0.3578.98,,2019-01-31 14:06:29,2019-01-31 14:06:58,28.770s,PASSED
+"navigateToUrl(""http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"")",Chrome 71.0.3578.98,,2019-01-31 14:06:29,2019-01-31 14:06:45,15.937s,PASSED
+"click(findTestObject(""Object Repository/order/a__1""))",Chrome 71.0.3578.98,바로구매 버튼 클릭,2019-01-31 14:06:45,2019-01-31 14:06:53,8.125s,PASSED
+"click(findTestObject(""Object Repository/order/td_800g ()""))",Chrome 71.0.3578.98,,2019-01-31 14:06:53,2019-01-31 14:06:54,0.083s,PASSED
+"click(findTestObject(""order/input_select_day_time_css""))",Chrome 71.0.3578.98,쓱배송일자 선택,2019-01-31 14:06:54,2019-01-31 14:06:54,0.078s,PASSED
+"click(findTestObject(""Object Repository/order/input_ _shortgProcMthdCdAll_1""))",Chrome 71.0.3578.98,,2019-01-31 14:06:54,2019-01-31 14:06:54,0.085s,PASSED
+"click(findTestObject(""Object Repository/order/button__1""))",Chrome 71.0.3578.98,,2019-01-31 14:06:54,2019-01-31 14:06:55,1.441s,PASSED
+"click(findTestObject(""Object Repository/order/button__2""))",Chrome 71.0.3578.98,,2019-01-31 14:06:55,2019-01-31 14:06:55,0.174s,PASSED
+"click(findTestObject(""Object Repository/order/label_""))",Chrome 71.0.3578.98,,2019-01-31 14:06:55,2019-01-31 14:06:55,0.085s,PASSED
+"click(findTestObject(""Object Repository/order/button_0  0""))",Chrome 71.0.3578.98,,2019-01-31 14:06:55,2019-01-31 14:06:58,2.397s,PASSED
+"ord_no = getText(findTestObject(""order/ord_no_txt""))",Chrome 71.0.3578.98,,2019-01-31 14:06:58,2019-01-31 14:06:58,0.041s,PASSED
+"ord_no = ord_no.replace(""주문번호는 "", """")",Chrome 71.0.3578.98,,2019-01-31 14:06:58,2019-01-31 14:06:58,0.001s,PASSED
+"ord_no = ord_no.replace(""번"", """")",Chrome 71.0.3578.98,,2019-01-31 14:06:58,2019-01-31 14:06:58,0.001s,PASSED
+ord_no = ord_no,Chrome 71.0.3578.98,,2019-01-31 14:06:58,2019-01-31 14:06:58,0.018s,PASSED
+out.println(ord_no),Chrome 71.0.3578.98,,2019-01-31 14:06:58,2019-01-31 14:06:58,0.009s,PASSED

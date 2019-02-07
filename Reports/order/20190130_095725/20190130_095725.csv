@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+order,Chrome 71.0.3578.98,,2019-01-30 09:57:29,2019-01-30 09:58:10,41.138s,PASSED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-30 09:57:29,2019-01-30 09:57:48,19.131s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-30 09:57:29,2019-01-30 09:57:42,12.354s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-30 09:57:42,2019-01-30 09:57:45,2.941s,PASSED
+"click(findTestObject(""Object Repository/order/a_""))",Chrome 71.0.3578.98,,2019-01-30 09:57:45,2019-01-30 09:57:45,0.640s,PASSED
+"switchToWindowTitle(""로그인, 신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 09:57:45,2019-01-30 09:57:47,1.346s,PASSED
+"setText(findTestObject(""Object Repository/order/input__mbrLoginId""), ""nezz"")",Chrome 71.0.3578.98,,2019-01-30 09:57:47,2019-01-30 09:57:47,0.650s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/order/input__password""), ""RKSwBYi2f48="")",Chrome 71.0.3578.98,,2019-01-30 09:57:47,2019-01-30 09:57:48,0.325s,PASSED
+"click(findTestObject(""Object Repository/order/button_""))",Chrome 71.0.3578.98,,2019-01-30 09:57:48,2019-01-30 09:57:48,0.161s,PASSED
+"switchToWindowTitle(""신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 09:57:48,2019-01-30 09:57:48,0.148s,PASSED
+,,,,,,
+Test Cases/order,Chrome 71.0.3578.98,,2019-01-30 09:57:48,2019-01-30 09:58:08,20.353s,PASSED
+"navigateToUrl(""http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"")",Chrome 71.0.3578.98,,2019-01-30 09:57:49,2019-01-30 09:58:00,10.999s,PASSED
+"click(findTestObject(""Object Repository/order/a__1""))",Chrome 71.0.3578.98,바로구매 버튼 클릭,2019-01-30 09:58:00,2019-01-30 09:58:03,3.428s,PASSED
+"click(findTestObject(""Object Repository/order/td_800g ()""))",Chrome 71.0.3578.98,,2019-01-30 09:58:03,2019-01-30 09:58:03,0.129s,PASSED
+"click(findTestObject(""Object Repository/order/input__rsvtShppInfo_1_0""))",Chrome 71.0.3578.98,,2019-01-30 09:58:03,2019-01-30 09:58:03,0.117s,PASSED
+"click(findTestObject(""Object Repository/order/input_ _shortgProcMthdCdAll_1""))",Chrome 71.0.3578.98,,2019-01-30 09:58:03,2019-01-30 09:58:03,0.160s,PASSED
+"click(findTestObject(""Object Repository/order/button__1""))",Chrome 71.0.3578.98,,2019-01-30 09:58:03,2019-01-30 09:58:05,1.872s,PASSED
+"click(findTestObject(""Object Repository/order/button__2""))",Chrome 71.0.3578.98,,2019-01-30 09:58:05,2019-01-30 09:58:06,0.230s,PASSED
+"click(findTestObject(""Object Repository/order/label_""))",Chrome 71.0.3578.98,,2019-01-30 09:58:06,2019-01-30 09:58:06,0.192s,PASSED
+"click(findTestObject(""Object Repository/order/button_0  0""))",Chrome 71.0.3578.98,,2019-01-30 09:58:06,2019-01-30 09:58:08,2.549s,PASSED

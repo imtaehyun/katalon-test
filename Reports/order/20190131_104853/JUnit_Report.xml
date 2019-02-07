@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="order" time="28" tests="2" failures="0" errors="0">
+   <testsuite name="order" tests="2" failures="0" errors="0" time="28" timestamp="2019-01-31 10:48:55" hostname="140179 - AD0-W-D10596.ssg.global" id="Test Suites/order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\development\\katalon\\ssg\\Reports\\order\\20190131_104853"/>
+         <property name="logFiles" value="D:\\development\\katalon\\ssg\\Reports\\order\\20190131_104853\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="140179 - AD0-W-D10596.ssg.global"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.149.181.162"/>
+         <property name="sessionId" value="0077399a788df88fbc2b86074e6cbb5d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ssg_login" classname="Test Cases/ssg_login" status="PASSED">
+         <system-out><![CDATA[2019-01-31 10:48:55 - [TEST_CASE][PASSED] - Test Cases/ssg_login: Test Cases/ssg_login
+
+2019-01-31 10:48:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 10:48:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-31 10:48:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-31 10:49:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 10:49:02 - [TEST_STEP][PASSED] - navigateToUrl("http://qa-www.ssg.com/"): Navigate to 'http://qa-www.ssg.com/' successfully
+
+2019-01-31 10:49:05 - [MESSAGE][PASSED] - Navigate to 'http://qa-www.ssg.com/' successfully
+
+2019-01-31 10:49:05 - [TEST_STEP][PASSED] - txt_login_btn = getText(findTestObject("order/a_")): Text of object 'Object Repository/order/a_' is: '로그인'
+
+2019-01-31 10:49:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/order/a_' is: '로그인'
+
+2019-01-31 10:49:05 - [TEST_STEP][PASSED] - if (txt_login_btn == "로그인"): Switched to window with title: '신세계적 쇼핑포털 SSG.COM'
+
+2019-01-31 10:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/a_")): Object: 'Object Repository/order/a_' is clicked on
+
+2019-01-31 10:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/order/a_' is clicked on
+
+2019-01-31 10:49:05 - [TEST_STEP][PASSED] - switchToWindowTitle("로그인, 신세계적 쇼핑포털 SSG.COM"): Switched to window with title: '로그인, 신세계적 쇼핑포털 SSG.COM'
+
+2019-01-31 10:49:07 - [MESSAGE][PASSED] - Switched to window with title: '로그인, 신세계적 쇼핑포털 SSG.COM'
+
+2019-01-31 10:49:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/order/input__mbrLoginId"), "nezz"): Text 'nezz' is set on object 'Object Repository/order/input__mbrLoginId'
+
+2019-01-31 10:49:07 - [MESSAGE][PASSED] - Text 'nezz' is set on object 'Object Repository/order/input__mbrLoginId'
+
+2019-01-31 10:49:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/order/input__password"), "RKSwBYi2f48="): Text ****** has been set on object 'Object Repository/order/input__password'
+
+2019-01-31 10:49:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/order/input__password'
+
+2019-01-31 10:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/button_")): Object: 'Object Repository/order/button_' is clicked on
+
+2019-01-31 10:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/order/button_' is clicked on
+
+2019-01-31 10:49:07 - [TEST_STEP][PASSED] - switchToWindowTitle("신세계적 쇼핑포털 SSG.COM"): Switched to window with title: '신세계적 쇼핑포털 SSG.COM'
+
+2019-01-31 10:49:07 - [MESSAGE][PASSED] - Switched to window with title: '신세계적 쇼핑포털 SSG.COM']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ssg_order" classname="Test Cases/ssg_order" status="PASSED">
+         <system-out><![CDATA[2019-01-31 10:49:07 - [TEST_CASE][PASSED] - Test Cases/ssg_order: Test Cases/ssg_order
+
+2019-01-31 10:49:07 - [TEST_STEP][PASSED] - navigateToUrl("http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"): Navigate to 'http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034' successfully
+
+2019-01-31 10:49:15 - [MESSAGE][PASSED] - Navigate to 'http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034' successfully
+
+2019-01-31 10:49:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/a__1")): Object: 'Object Repository/order/a__1' is clicked on
+
+2019-01-31 10:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/order/a__1' is clicked on
+
+2019-01-31 10:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/td_800g ()")): Object: 'Object Repository/order/td_800g ()' is clicked on
+
+2019-01-31 10:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/order/td_800g ()' is clicked on
+
+2019-01-31 10:49:17 - [TEST_STEP][PASSED] - click(findTestObject("order/input_select_day_time_css")): Object: 'Object Repository/order/input_select_day_time_css' is clicked on
+
+2019-01-31 10:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/order/input_select_day_time_css' is clicked on
+
+2019-01-31 10:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/input_ _shortgProcMthdCdAll_1")): Object: 'Object Repository/order/input_ _shortgProcMthdCdAll_1' is clicked on
+
+2019-01-31 10:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/order/input_ _shortgProcMthdCdAll_1' is clicked on
+
+2019-01-31 10:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/button__1")): Object: 'Object Repository/order/button__1' is clicked on
+
+2019-01-31 10:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/order/button__1' is clicked on
+
+2019-01-31 10:49:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/button__2")): Object: 'Object Repository/order/button__2' is clicked on
+
+2019-01-31 10:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/order/button__2' is clicked on
+
+2019-01-31 10:49:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/label_")): Object: 'Object Repository/order/label_' is clicked on
+
+2019-01-31 10:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/order/label_' is clicked on
+
+2019-01-31 10:49:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/order/button_0  0")): Object: 'Object Repository/order/button_0  0' is clicked on
+
+2019-01-31 10:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/order/button_0  0' is clicked on
+
+2019-01-31 10:49:21 - [TEST_STEP][PASSED] - ord_no = getText(findTestObject("order/ord_no_txt")): Text of object 'Object Repository/order/ord_no_txt' is: '주문번호는 20190131194325번'
+
+2019-01-31 10:49:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/order/ord_no_txt' is: '주문번호는 20190131194325번'
+
+2019-01-31 10:49:21 - [TEST_STEP][PASSED] - ord_no = ord_no.replace("주문번호는 ", ""): null
+
+2019-01-31 10:49:21 - [TEST_STEP][PASSED] - ord_no = ord_no.replace("번", ""): null
+
+2019-01-31 10:49:21 - [TEST_STEP][PASSED] - out.println(ord_no): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 10:48:55 - [TEST_SUITE][PASSED] - order: Test Cases/ssg_order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

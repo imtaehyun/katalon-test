@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+cancel_order,Chrome 71.0.3578.98,,2019-01-30 09:59:42,2019-01-30 10:00:23,40.649s,PASSED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-30 09:59:42,2019-01-30 10:00:01,18.746s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-30 09:59:43,2019-01-30 09:59:54,11.430s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-30 09:59:54,2019-01-30 09:59:58,3.522s,PASSED
+"click(findTestObject(""Object Repository/order/a_""))",Chrome 71.0.3578.98,,2019-01-30 09:59:58,2019-01-30 09:59:58,0.674s,PASSED
+"switchToWindowTitle(""로그인, 신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 09:59:58,2019-01-30 10:00:00,1.523s,PASSED
+"setText(findTestObject(""Object Repository/order/input__mbrLoginId""), ""nezz"")",Chrome 71.0.3578.98,,2019-01-30 10:00:00,2019-01-30 10:00:00,0.300s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/order/input__password""), ""RKSwBYi2f48="")",Chrome 71.0.3578.98,,2019-01-30 10:00:00,2019-01-30 10:00:01,0.356s,PASSED
+"click(findTestObject(""Object Repository/order/button_""))",Chrome 71.0.3578.98,,2019-01-30 10:00:01,2019-01-30 10:00:01,0.175s,PASSED
+"switchToWindowTitle(""신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 10:00:01,2019-01-30 10:00:01,0.205s,PASSED
+,,,,,,
+Test Cases/cancel,Chrome 71.0.3578.98,,2019-01-30 10:00:01,2019-01-30 10:00:21,20.358s,PASSED
+"navigateToUrl(""https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg"")",Chrome 71.0.3578.98,,2019-01-30 10:00:02,2019-01-30 10:00:12,10.440s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (1)""))",Chrome 71.0.3578.98,,2019-01-30 10:00:12,2019-01-30 10:00:13,0.507s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_""))",Chrome 71.0.3578.98,,2019-01-30 10:00:13,2019-01-30 10:00:13,0.303s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_ (1)""))",Chrome 71.0.3578.98,,2019-01-30 10:00:13,2019-01-30 10:00:13,0.252s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (2)""))",Chrome 71.0.3578.98,,2019-01-30 10:00:13,2019-01-30 10:00:13,0.283s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_     .""))",Chrome 71.0.3578.98,,2019-01-30 10:00:13,2019-01-30 10:00:15,1.331s,PASSED
+"click(findTestObject(""Object Repository/cancel/button__1""))",Chrome 71.0.3578.98,,2019-01-30 10:00:15,2019-01-30 10:00:15,0.265s,PASSED
+"click(findTestObject(""Object Repository/cancel/button__2""))",Chrome 71.0.3578.98,,2019-01-30 10:00:15,2019-01-30 10:00:21,6.347s,PASSED

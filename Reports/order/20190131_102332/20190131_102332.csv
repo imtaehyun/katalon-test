@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+order,Chrome 71.0.3578.98,,2019-01-31 10:23:36,2019-01-31 10:24:05,28.356s,FAILED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 10:23:36,2019-01-31 10:23:50,13.706s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 10:23:37,2019-01-31 10:23:43,6.656s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 10:23:43,2019-01-31 10:23:48,4.355s,PASSED
+"click(findTestObject(""Object Repository/order/a_""))",Chrome 71.0.3578.98,GNB 로그인 버튼 클릭,2019-01-31 10:23:48,2019-01-31 10:23:48,0.571s,PASSED
+"switchToWindowTitle(""로그인, 신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-31 10:23:48,2019-01-31 10:23:50,1.318s,PASSED
+"setText(findTestObject(""Object Repository/order/input__mbrLoginId""), ""nezz"")",Chrome 71.0.3578.98,,2019-01-31 10:23:50,2019-01-31 10:23:50,0.136s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/order/input__password""), ""RKSwBYi2f48="")",Chrome 71.0.3578.98,,2019-01-31 10:23:50,2019-01-31 10:23:50,0.175s,PASSED
+"click(findTestObject(""Object Repository/order/button_""))",Chrome 71.0.3578.98,,2019-01-31 10:23:50,2019-01-31 10:23:50,0.087s,PASSED
+"switchToWindowTitle(""신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-31 10:23:50,2019-01-31 10:23:50,0.052s,PASSED
+,,,,,,
+Test Cases/ssg_order,Chrome 71.0.3578.98,,2019-01-31 10:23:50,2019-01-31 10:24:03,13.222s,FAILED
+"navigateToUrl(""http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"")",Chrome 71.0.3578.98,,2019-01-31 10:23:50,2019-01-31 10:23:54,3.793s,PASSED
+"click(findTestObject(""Object Repository/order/a__1""))",Chrome 71.0.3578.98,바로구매 버튼 클릭,2019-01-31 10:23:54,2019-01-31 10:24:03,8.830s,PASSED
+"click(findTestObject(""Object Repository/order/td_800g ()""))",Chrome 71.0.3578.98,,2019-01-31 10:24:03,2019-01-31 10:24:03,0.385s,FAILED

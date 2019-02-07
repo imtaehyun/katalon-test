@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+order,Chrome 71.0.3578.98,,2019-01-31 11:04:08,2019-01-31 11:04:36,27.945s,FAILED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-31 11:04:08,2019-01-31 11:04:22,13.763s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-31 11:04:09,2019-01-31 11:04:16,7.222s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-31 11:04:16,2019-01-31 11:04:20,3.862s,PASSED
+"txt_login_btn = getText(findTestObject(""order/a_""))",Chrome 71.0.3578.98,,2019-01-31 11:04:20,2019-01-31 11:04:20,0.165s,PASSED
+"if (txt_login_btn == ""로그인"")",Chrome 71.0.3578.98,,2019-01-31 11:04:20,2019-01-31 11:04:22,2.195s,PASSED
+,,,,,,
+Test Cases/ssg_order,Chrome 71.0.3578.98,,2019-01-31 11:04:22,2019-01-31 11:04:35,12.800s,FAILED
+"navigateToUrl(""http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"")",Chrome 71.0.3578.98,,2019-01-31 11:04:22,2019-01-31 11:04:32,9.881s,PASSED
+"click(findTestObject(""Object Repository/order/a__1""))",Chrome 71.0.3578.98,바로구매 버튼 클릭,2019-01-31 11:04:32,2019-01-31 11:04:35,2.314s,PASSED
+"click(findTestObject(""Object Repository/order/td_800g ()""))",Chrome 71.0.3578.98,,2019-01-31 11:04:35,2019-01-31 11:04:35,0.372s,FAILED

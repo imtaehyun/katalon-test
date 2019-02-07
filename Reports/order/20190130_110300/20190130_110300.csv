@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+order,Chrome 71.0.3578.98,,2019-01-30 11:03:03,2019-01-30 11:04:40,1m - 37.368s,FAILED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-30 11:03:03,2019-01-30 11:03:51,48.120s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-30 11:03:03,2019-01-30 11:03:42,39.005s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-30 11:03:42,2019-01-30 11:03:48,5.214s,PASSED
+"click(findTestObject(""Object Repository/order/a_""))",Chrome 71.0.3578.98,GNB 로그인 버튼 클릭,2019-01-30 11:03:48,2019-01-30 11:03:48,0.475s,PASSED
+"switchToWindowTitle(""로그인, 신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 11:03:48,2019-01-30 11:03:50,1.966s,PASSED
+"setText(findTestObject(""Object Repository/order/input__mbrLoginId""), ""nezz"")",Chrome 71.0.3578.98,,2019-01-30 11:03:50,2019-01-30 11:03:50,0.248s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/order/input__password""), ""RKSwBYi2f48="")",Chrome 71.0.3578.98,,2019-01-30 11:03:50,2019-01-30 11:03:51,0.432s,PASSED
+"click(findTestObject(""Object Repository/order/button_""))",Chrome 71.0.3578.98,,2019-01-30 11:03:51,2019-01-30 11:03:51,0.271s,PASSED
+"switchToWindowTitle(""신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 11:03:51,2019-01-30 11:03:51,0.116s,PASSED
+,,,,,,
+Test Cases/ssg_order,Chrome 71.0.3578.98,,2019-01-30 11:03:51,2019-01-30 11:04:39,47.797s,FAILED
+"navigateToUrl(""http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026713&siteNo=6001&salestrNo=2034"")",Chrome 71.0.3578.98,,2019-01-30 11:03:51,2019-01-30 11:04:04,12.526s,PASSED
+"click(findTestObject(""Object Repository/order/a__1""))",Chrome 71.0.3578.98,바로구매 버튼 클릭,2019-01-30 11:04:04,2019-01-30 11:04:08,3.554s,PASSED
+"click(findTestObject(""Object Repository/order/td_800g ()""))",Chrome 71.0.3578.98,,2019-01-30 11:04:08,2019-01-30 11:04:08,0.096s,PASSED
+"click(findTestObject(""Object Repository/order/input__rsvtShppInfo_1_0""))",Chrome 71.0.3578.98,,2019-01-30 11:04:08,2019-01-30 11:04:39,31.214s,FAILED

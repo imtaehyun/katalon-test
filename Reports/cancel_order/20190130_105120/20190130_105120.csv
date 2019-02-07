@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+cancel_order,Chrome 71.0.3578.98,,2019-01-30 10:51:23,2019-01-30 10:51:48,25.135s,FAILED
+,,,,,,
+Test Cases/ssg_login,Chrome 71.0.3578.98,,2019-01-30 10:51:23,2019-01-30 10:51:38,15.499s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-30 10:51:23,2019-01-30 10:51:33,10.183s,PASSED
+"navigateToUrl(""http://qa-www.ssg.com/"")",Chrome 71.0.3578.98,,2019-01-30 10:51:33,2019-01-30 10:51:36,2.616s,PASSED
+"click(findTestObject(""Object Repository/order/a_""))",Chrome 71.0.3578.98,GNB 로그인 버튼 클릭,2019-01-30 10:51:36,2019-01-30 10:51:36,0.419s,PASSED
+"switchToWindowTitle(""로그인, 신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 10:51:36,2019-01-30 10:51:38,1.181s,PASSED
+"setText(findTestObject(""Object Repository/order/input__mbrLoginId""), ""nezz"")",Chrome 71.0.3578.98,,2019-01-30 10:51:38,2019-01-30 10:51:38,0.200s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/order/input__password""), ""RKSwBYi2f48="")",Chrome 71.0.3578.98,,2019-01-30 10:51:38,2019-01-30 10:51:38,0.236s,PASSED
+"click(findTestObject(""Object Repository/order/button_""))",Chrome 71.0.3578.98,,2019-01-30 10:51:38,2019-01-30 10:51:38,0.139s,PASSED
+"switchToWindowTitle(""신세계적 쇼핑포털 SSG.COM"")",Chrome 71.0.3578.98,,2019-01-30 10:51:38,2019-01-30 10:51:38,0.129s,PASSED
+,,,,,,
+Test Cases/ssg_cancel,Chrome 71.0.3578.98,,2019-01-30 10:51:38,2019-01-30 10:51:47,8.179s,FAILED
+"navigateToUrl(""https://qa-pay.ssg.com/myssg/orderInfo.ssg?viewType=Ssg"")",Chrome 71.0.3578.98,,2019-01-30 10:51:39,2019-01-30 10:51:44,5.697s,PASSED
+"click(findTestObject(""Object Repository/cancel/button_ (1)""))",Chrome 71.0.3578.98,,2019-01-30 10:51:44,2019-01-30 10:51:45,0.993s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_""))",Chrome 71.0.3578.98,,2019-01-30 10:51:45,2019-01-30 10:51:46,0.469s,PASSED
+"click(findTestObject(""Object Repository/cancel/label_ (1)""))",Chrome 71.0.3578.98,,2019-01-30 10:51:46,2019-01-30 10:51:47,0.611s,FAILED
