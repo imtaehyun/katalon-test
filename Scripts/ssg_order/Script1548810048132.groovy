@@ -19,7 +19,15 @@ WebUI.navigateToUrl('http://qa-emart.ssg.com/item/itemView.ssg?itemId=0000008026
 '바로구매 버튼 클릭'
 WebUI.click(findTestObject('Object Repository/order/a__1'))
 
-WebUI.click(findTestObject('Object Repository/order/td_800g ()'))
+isDuhagee = WebUI.verifyElementVisible(findTestObject('order2/jumun_duhagee'))
+
+'최초주문일때'
+if (isDuhagee == false) {
+    WebUI.click(findTestObject('Object Repository/order/td_800g ()'))
+} else {
+    '주문더하기가 뜰때 새로 주문하기 버튼 클릭'
+    WebUI.click(findTestObject('order2/new_order_button'))
+}
 
 '쓱배송일자 선택'
 WebUI.click(findTestObject('order/input_select_day_time_css'))
