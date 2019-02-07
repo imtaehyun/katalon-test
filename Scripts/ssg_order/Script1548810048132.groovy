@@ -36,6 +36,8 @@ try {
     '품절상품 대체여부 > 전체수락'
     WebUI.click(findTestObject('Object Repository/order/input_ _shortgProcMthdCdAll_1'))
 
+    WebUI.delay(5)
+
     '계속하기 버튼 클릭'
     WebUI.click(findTestObject('Object Repository/order/button__1'))
 
