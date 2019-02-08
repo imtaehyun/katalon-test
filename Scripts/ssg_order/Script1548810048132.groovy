@@ -13,8 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+def itemUrl = 'http://qa-emart.ssg.com/item/itemView.ssg?itemId=' + itemId + '&siteNo=6001&salestrNo=2034'
 '상품 페이지 이동'
-WebUI.navigateToUrl('http://qa-emart.ssg.com/item/itemView.ssg?itemId=${itemId}&siteNo=6001&salestrNo=2034')
+WebUI.navigateToUrl(itemUrl)
 
 isValidToBuy = WebUI.verifyElementPresent(findTestObject('order/a__1'), 1)
 

@@ -21,6 +21,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ssg_order</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>99b9e894-a603-4260-89f2-04d9178f45c5</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4cfec604-aa64-4c80-91f8-5a6253402f78</guid>
