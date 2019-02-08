@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.navigateToUrl('http://qa-www.ssg.com/')
 
