@@ -15,8 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1920, 1080)
-
 WebUI.navigateToUrl('http://qa-www.ssg.com/')
 
 txt_login_btn = WebUI.getText(findTestObject('order/a_'))
